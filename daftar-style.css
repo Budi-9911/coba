@@ -1,0 +1,547 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    .header-background {
+        background-image: url('gambar/image 1.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 250px;
+        position: relative;
+        display: flex;
+    }
+
+    .header-overlay {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 40px;
+    }
+
+    .logo-header {
+        width: 160px;
+        height: auto;
+        display: block;
+    }
+
+    .nav-links {
+        list-style: none;
+        display: flex;
+        gap: 25px;
+    }
+
+    .nav-links a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .btn-hubungi {
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        background-color: #00e0c2;
+        color: rgb(0, 0, 0);
+        padding: 12px 28px;
+        border-radius: 30px;
+        font-weight: bold;
+        font-size: 25px;
+        text-decoration: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        z-index: 10;
+
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .nav-container {
+        align-items: center;
+        justify-content: space-between;
+        padding: 200px;
+        padding-top: 100px;
+    }
+
+    .nav-links {
+        list-style: none;
+        display: flex;
+        gap: 50px;
+    }
+
+    .nav-links li a {
+        font-family: 'kokoro';
+        font-size: 25px;
+        font-weight: normal;
+        color: rgb(255, 255, 255);
+    }
+
+    .deskripsi {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 50px;
+        text-align: left;
+    }
+
+    .deskripsi h2 {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+
+    .deskripsi-sertifikasi {
+        font-size: 32px;
+        line-height: 1.4;
+        margin: 10px 0;
+    }
+
+
+    .harga {
+        background-color: #F1F1F1;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px;
+        flex-wrap: wrap;
+        /* Keep flex-wrap for safety, but manage sizes to prevent wrapping */
+    }
+
+    .harga-info {
+        flex: 1;
+        min-width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .harga-info h3 {
+        font-size: 35px;
+        margin-bottom: 0;
+        text-align: left;
+        color: #333;
+        line-height: 1.5;
+    }
+
+    .harga-card {
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        padding: 40px 30px;
+        width: 300px;
+        height: 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: auto;
+    }
+
+    .label-harga {
+        font-size: 30px;
+        margin-bottom: 10px;
+        padding-bottom: 40px;
+    }
+
+    .nominal {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .btn-daftar {
+        padding: auto;
+        font-size: 30px;
+        background-color: #00e0c2;
+        color: black;
+        border: 2px solid black;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .btn-daftar:hover {
+        background-color: #00b6a1;
+    }
+
+    .kompetensi {
+        font-size: 35px;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .kompetensi h3 {
+        margin-bottom: 20px;
+    }
+
+    .tabel-img {
+        width: 100%;
+        max-width: 700px;
+    }
+
+    .footer {
+        background: #1e1e2f;
+        color: white;
+        padding: 50px;
+    }
+
+    .footer-top {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .footer-brand {
+        flex: 1;
+    }
+
+    .footer-brand p {
+        margin-top: 10px;
+        font-size: 0.9em;
+    }
+
+    .sosmed img {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        margin-top: 10px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .logo-wrapper {
+        background-color: #ffffff;
+        display: inline-block;
+        border-radius: 8px;
+    }
+
+    .logo-footer {
+        width: 160px;
+        height: auto;
+        display: block;
+    }
+
+
+    .footer-links {
+        flex: 2;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .footer-links h4 {
+        margin-bottom: 10px;
+    }
+
+    .footer-links ul {
+        list-style: none;
+        font-size: 0.9em;
+    }
+
+    .footer-links li {
+        margin-bottom: 5px;
+    }
+
+    .footer-links p {
+        font-size: 0.9em;
+    }
+
+    /* --- */
+    /* Responsive Adjustments for Smaller Screens (e.g., max-width of 768px) */
+    /* --- */
+    @media (max-width: 768px) {
+        .header-background {
+            height: 200px;
+            /* Slightly reduce header height */
+        }
+
+        .header-content {
+            padding: 0 20px;
+            /* Reduce horizontal padding */
+            /* No flex-direction: column here to maintain original layout */
+        }
+
+        .logo-header {
+            width: 130px;
+            /* Smaller logo */
+        }
+
+        .nav-links {
+            gap: 15px;
+            /* Reduce gap between links */
+            /* No flex-direction: column here to maintain original layout */
+        }
+
+        .nav-links li a {
+            font-size: 16px;
+            /* Smaller font for nav links */
+        }
+
+        .btn-hubungi {
+            top: 30px;
+            /* Adjust position */
+            right: 20px;
+            /* Adjust position */
+            font-size: 20px;
+            /* Smaller button text */
+            padding: 10px 20px;
+            /* Smaller padding */
+        }
+
+        .deskripsi {
+            padding: 40px 30px;
+            /* Adjust padding for smaller screens */
+            /* Keep text-align: left if you want to maintain the original intent */
+        }
+
+        .deskripsi h2 {
+            font-size: 40px;
+            /* Smaller heading */
+            margin-bottom: 25px;
+        }
+
+        .deskripsi-sertifikasi {
+            font-size: 26px;
+            /* Smaller body text */
+        }
+
+        .harga {
+            padding: 30px 20px;
+            /* Do NOT set flex-direction: column here if you want to keep them side-by-side */
+            /* Instead, let flex-wrap handle it if space becomes too tight, or adjust min-width/width */
+            justify-content: center;
+            /* Center items if they wrap */
+        }
+
+        .harga-info {
+            min-width: unset;
+            /* Remove min-width to allow more flexibility */
+            flex-basis: 50%;
+            /* Try to give it half the space */
+            justify-content: center;
+            /* Center the content within its flex item */
+            text-align: center;
+            /* Center align text */
+        }
+
+        .harga-info h3 {
+            font-size: 30px;
+            /* Smaller heading in price info */
+            text-align: center;
+        }
+
+        .harga-card {
+            width: 280px;
+            /* Slightly smaller fixed width */
+            height: 250px;
+            /* Slightly smaller fixed height */
+            padding: 30px 20px;
+            /* Adjust card padding */
+            margin: 0 10px;
+            /* Add some margin if they are side by side */
+        }
+
+        .label-harga {
+            font-size: 25px;
+            /* Smaller label */
+            padding-bottom: 25px;
+        }
+
+        .nominal {
+            font-size: 25px;
+            /* Smaller nominal price */
+        }
+
+        .btn-daftar {
+            font-size: 25px;
+            /* Smaller button text */
+            padding: 10px 25px;
+        }
+
+        .kompetensi {
+            font-size: 30px;
+            /* Smaller heading for kompetensi */
+            padding: 25px;
+        }
+
+        .tabel-img {
+            width: 90%;
+            /* Adjust image width for smaller screens */
+            max-width: 600px;
+        }
+
+        .footer {
+            padding: 30px 20px;
+        }
+
+        .footer-top {
+            gap: 20px;
+            /* No flex-direction: column here if you want to maintain original layout */
+            justify-content: center;
+            /* Center content if there's wrapping */
+        }
+
+        .footer-brand {
+            flex: unset;
+            /* Remove flex:1 to prevent excessive stretching */
+            width: 100%;
+            /* Take full width if not enough space */
+            text-align: center;
+        }
+
+        .logo-footer {
+            width: 120px;
+            /* Smaller footer logo */
+            margin: 0 auto 10px auto;
+            /* Center the logo and add margin */
+        }
+
+        .sosmed {
+            text-align: center;
+        }
+
+        .footer-links {
+            flex: unset;
+            /* Remove flex:2 */
+            width: 100%;
+            /* Take full width */
+            justify-content: space-around;
+            /* Distribute items with space */
+            gap: 15px;
+        }
+
+        .footer-links h4 {
+            text-align: center;
+            /* Center text within footer links */
+        }
+
+        .footer-links ul {
+            text-align: left;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .body {
+            width: auto;
+        }
+
+        .header-background {
+            height: 180px;
+        }
+
+        .logo-header {
+            width: 80px;
+            height: auto;
+            margin-bottom: 5px;
+        }
+
+        .btn-hubungi {
+            font-size: 10px;
+        }
+
+        .nav-container {
+            padding-left: 60px;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        .nav-links {
+            gap: 13px;
+        }
+
+        .nav-links li a {
+            font-size: 12px;
+        }
+
+        .deskripsi {
+            padding: 15px 8px;
+            text-align: left;
+            /* Center align for better readability */
+        }
+
+        .deskripsi h2 {
+            font-size: 15px;
+        }
+
+        .deskripsi-sertifikasi {
+            font-size: 12px;
+        }
+
+        .harga {
+            padding: 10px 8px;
+        }
+
+        .harga-info {
+            margin-bottom: 20px;
+            padding-right: 20px;
+        }
+
+        .harga-info h3 {
+            font-size: 12px;
+            text-align: left;
+            padding-right: 100px;
+        }
+
+        .harga-card {
+            width: 45%;
+            /* Take more width on very small screens */
+            max-width: 140px;
+            /* Prevent it from getting too wide */
+            height: auto;
+            /* Allow height to adjust */
+            padding: 13px 7px;
+        }
+
+        .label-harga {
+            font-size: 14px;
+            padding-bottom: 10px;
+        }
+
+        .nominal {
+            font-size: 12px;
+        }
+
+        .btn-daftar {
+            font-size: 9px;
+            padding: 4px 9px;
+        }
+
+        .kompetensi {
+            font-size: 11px;
+            margin-top: 15px;
+        }
+
+        .tabel-img {
+            width: 75%;
+            /* Make image slightly larger */
+        }
+
+        .footer-brand p {
+            font-size: 12px;
+        }
+
+        .footer-links {
+            gap: 5px;
+            font-size: 12px;
+        }
+
+    }
